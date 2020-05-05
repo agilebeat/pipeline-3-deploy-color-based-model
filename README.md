@@ -25,12 +25,11 @@ For example of model for industrial area,
 `(python.venv) root@xxxx:~/landuse_industrial# pip install -t ./ -r requirements.txt`
 
 
-### 6. Install necessary plugins for serverless. Run:
-
-(python.venv) root@xxxx:~/landuse_industrial# sls plugin install -n serverless-python-requirements
-(python.venv) root@xxxx:~/landuse_industrial# sls plugin install -n serverless-reqvalidator-plugin
-(python.venv) root@xxxx:~/landuse_industrial# sls plugin install -n serverless-aws-documentation
-(python.venv) root@xxxx:~/landuse_industrial# sls plugin install -n serverless-plugin-custom-roles
+### 6. Install necessary plugins for serverless. Run:  
+`(python.venv) root@xxxx:~/landuse_industrial# sls plugin install -n serverless-python-requirements`  
+`(python.venv) root@xxxx:~/landuse_industrial# sls plugin install -n serverless-reqvalidator-plugin`  
+`(python.venv) root@xxxx:~/landuse_industrial# sls plugin install -n serverless-aws-documentation`  
+`(python.venv) root@xxxx:~/landuse_industrial# sls plugin install -n serverless-plugin-custom-roles`  
 
 
 ### 7. Deploy the model
@@ -38,6 +37,6 @@ For example of model for industrial area,
 
 
 
-## Testing the model with testing images as base64 string
+### 8.Testing the model with testing images as base64 string
 Open 'test.http' and send the request. Make sure the POST endpoint address is from deployment.
 
