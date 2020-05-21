@@ -1,9 +1,9 @@
 {
 	"type":"object",
 	"properties": {
-		"z": {"type":"string"},
-		"x": {"type":"string"},
-		"y": {"type":"string"},
+		"z": {"type":"integer"},
+		"x": {"type":"integer"},
+		"y": {"type":"integer"},
 		"tile_base64":{"type":"string"}
 	},
 	"title":"Input"

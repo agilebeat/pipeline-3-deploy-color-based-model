@@ -1,5 +1,6 @@
 # pipeline-3-deploy-color-based-model
-AWS lambda deployment for color-based image classifiers
+AWS lambda deployment for color-based image classifiers  
+Each model is deployed on its own docker container (one model per container)
 
 
 ### 1. Build docker images with docker file name
