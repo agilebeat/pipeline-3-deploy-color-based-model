@@ -15,7 +15,7 @@ import cv2
 
 #--- load featured color values 
 THIS_FOLDER = os.getcwd()
-model_file = os.path.join(THIS_FOLDER, 'cols_commerical.txt')
+model_file = os.path.join(THIS_FOLDER, 'cols_commercial.txt')
 
 f = open(model_file, "r")
 col_vals = f.read().splitlines()

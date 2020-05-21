@@ -97,5 +97,5 @@ custom:
       info:
         version: "v0.0.1"
         title: "Industrial API"
-        description: "Maprover API - color-based models for a map"
+        description: "Maprover API - color-based model for a map"
 
